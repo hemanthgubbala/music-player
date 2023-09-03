@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <style>
+    
+    *{
+      margin: 0;
+      padding: 0;
+    }
+      body {
+      display: flex;
+      font-family: Arial, sans-serif;
+      background-image: url("https://img.freepik.com/free-vector/glowing-musical-pentagram-background-with-sound-notes_1017-31220.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      /* body{
+    background-color: antiquewhite;
+    overflow:hidden;
+} */
+
+
+    }
+
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-size: cover;
+      padding: 20px;
+      width: 242px; /* Adjust the width as needed */
+      height: 420px; /* Adjust the height as needed */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      background: url("https://cdn.glitch.global/870016a9-9800-4978-87c3-a44b2eb32ad6/IMG_20230722_114932.jpg?v=1690007695990 ") no-repeat center ;
+      background-size: 280px 460px ;
+      border-radius: 13.5%;
+    
+
+    }
+   h2{
+    padding-top: 20px;
+   }
+
+    .container h2 {
+      text-align: center;
+      ;
+    }
+    
+
+    .container input {
+    
+      
+      display: block;
+      max-width:500px;
+      width: auto;
+      padding:5px ;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      
+    }
+    .inputcon{
+        margin-top: 80px;
+        margin-left:25px;
+    }
+
+    .but{
+      background-color: #4CAF50;
+      color: white;
+      cursor: pointer;
+      margin-left:65px;
+      margin-top: 10px;
+      text-align: center;
+      border-radius: 12%;
+      
+    }
+    .login{
+      margin-left:75px;
+      text-align: center;
+      width:95%;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 >Login</h2>
+    <form action="/login" method="post" class="inputcon">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <!-- <input type="submit" class="login"> -->
+      <button onclick="window.location.href='languages.html';" class="but" aria-required="false">login</button>
+    </form>
+  </div>
+</body>
+</html>

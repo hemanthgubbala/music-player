@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+    overflow: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family:'ubuntu',sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 44px;
+    padding: 0 8px;
+    
+ }
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+.language{
+    margin-top:30px;
+    margin-left:100px;
+    color:white;
+    
+}
+button{
+    margin-left:150px;
+    padding:10px;
+    width:100px;
+    background-size: cover;
+}
+.box{
+    min-height: 60vh;
+    background-color:black;
+    color: white;
+    font-family:'Varela round',sans-serif ;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 14px;
+    padding: 34px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#tel{
+    width:450px;
+    height:250px;
+    margin-left:250px;
+    background-image:url("https://i2.cinestaan.com/image-bank/1500-1500/157001-158000/157852.jpg");
+    background-size:cover;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    display: flex;
+}
+#eng{
+    margin-top:300px;
+    margin-left:-975px;
+    height:250px;
+    width:450px;
+ background-image: url("https://w0.peakpx.com/wallpaper/346/442/HD-wallpaper-dj-marshmello-blue-neon-lights-fan-art-superstars-christopher-comstock-american-dj-music-stars-creative-marshmello-djs.jpg");
+ background-size: cover;
+ color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    display: flex;
+}
+#hin{
+    margin-top:300px;
+    margin-left:-450px;
+    width:450px;
+    height:250px;
+    background-image: url("https://nettv4u.com/fileman/Uploads/Top-10-Bollywood-Playback-Singers-of-the-New-Era/Arijit_Singh.jpg");
+    background-size: cover;
+    color: white;
+    font-size: xx-large;
+    cursor: pointer;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
